@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101126" />
+  <meta name="description" content="Reachlane: discover publicly verified company leaders, official careers routes, and practical job outreach resources. Get the curated starter kit for ₹19." />
+  <title>Reachlane — Find the door. Make the introduction.</title>
+  <link rel="icon" href="/assets/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <div class="announcement"><span class="announce-pip"></span> BUILD BETTER OUTREACH, NOT SPAM <span class="announce-sep">/</span> LAUNCH PRICE <strong>₹19 ONLY</strong><span class="announce-star">✳</span></div>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="#home" aria-label="Reachlane home"><span class="brand-mark"><span>↗</span></span><span>reachlane<span class="brand-dot">.</span></span></a>
+      <nav class="nav-links" aria-label="Main menu"><a href="#directory">Explore</a><a href="#how-it-works">How it works</a><a href="#inside">What you get</a></nav>
+      <a class="header-cta" href="#pricing">Get the kit <span>↗</span></a>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow"><span class="green-pulse"></span> YOUR CAREER. YOUR NEXT MOVE.</div>
+          <h1>Find the door.<br /><em>Make the</em><br /><span class="intro-word">introduction<span class="period">.</span></span></h1>
+          <p class="hero-description">Stop sending the same résumé into the void. Discover public company leaders, follow official careers routes, and reach out with a story worth reading.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#directory">Explore the directory <span>↗</span></a><a class="btn btn-outline" href="#how-it-works">How it works <span>↓</span></a></div>
+          <div class="hero-proof"><div class="avatars"><span>A</span><span>K</span><span>S</span><span>↗</span></div><p>Made for ambitious students<br/><strong>Not another random contact dump.</strong></p></div>
+        </div>
+        <div class="hero-visual" aria-label="Sample company research dashboard">
+          <div class="orbit orbit-1"></div><div class="orbit orbit-2"></div>
+          <span class="sparkle sparkle-top">✳</span><span class="sparkle sparkle-right">✦</span>
+          <div class="hero-card">
+            <div class="hero-card-top"><div><span class="tiny-dot"></span><span>THE OPPORTUNITY BOARD</span></div><span class="dots">● ● ●</span></div>
+            <div class="hero-card-main"><div><small>YOUR NEXT MOVE</small><h2>Dream bigger.<br />Apply smarter<span>.</span></h2></div><div class="arrow-circle">↗</div></div>
+            <div class="hero-card-list">
+              <div class="mock-row"><span class="mock-logo logo-blue">M</span><span class="mock-company"><strong>Meesho</strong><small>Commerce · Bengaluru</small></span><span class="pill-positive">Verified ↗</span></div>
+              <div class="mock-row"><span class="mock-logo logo-violet">P</span><span class="mock-company"><strong>PhonePe</strong><small>Fintech · Bengaluru</small></span><span class="pill-positive">Verified ↗</span></div>
+              <div class="mock-row"><span class="mock-logo logo-orange">B</span><span class="mock-company"><strong>BrowserStack</strong><small>SaaS · Mumbai</small></span><span class="pill-positive">Verified ↗</span></div>
+            </div>
+            <div class="hero-card-bottom"><span>✦</span> Official sources. Real research. Better first moves.</div>
+          </div>
+          <div class="floating-label floating-label-top"><span>↗</span> <strong>13 companies</strong><small>public leadership records</small></div>
+          <div class="floating-label floating-label-bottom"><span class="label-star">★</span> <div><strong>₹19 launch kit</strong><small>Pay once. Get moving.</small></div></div>
+        </div>
+      </div>
+      <div class="hero-baseline container"><span>CURATED, NOT SCRAPED FOR SPAM.</span><span>✳</span><span>RESEARCHED FROM OFFICIAL COMPANY SOURCES.</span><span>✳</span><span>MADE FOR BUILDERS & DOERS.</span></div>
+    </section>
+
+    <section class="stat-strip"><div class="container stat-grid"><div><strong>13</strong><small>researched companies</small></div><div><strong>100<span>%</span></strong><small>public leadership sources</small></div><div><strong>3</strong><small>outreach templates</small></div><div><strong>₹19</strong><small>one-time launch price</small></div></div></section>
+
+    <section class="directory-section section" id="directory"><div class="container">
+      <div class="section-heading heading-split"><div><div class="section-kicker">01 / THE DIRECTORY</div><h2>Meet the people<br/><span>behind the companies.</span></h2></div><p>Start with who runs the company. Then find the right professional hiring route. Every leadership record links back to a source.</p></div>
+      <div class="directory-panel">
+        <div class="search-row"><div class="search-box"><svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="company-search" type="search" placeholder="Search companies, leaders, sectors..." aria-label="Search companies" /></div><div class="record-counter"><span id="shown-count">4</span> <span id="result-label">preview companies</span></div></div>
+        <div class="filter-row" id="filters" role="group" aria-label="Filter industries"><button class="filter active" type="button" data-filter="All">All companies</button><button class="filter" type="button" data-filter="Fintech">Fintech</button><button class="filter" type="button" data-filter="SaaS">SaaS</button><button class="filter" type="button" data-filter="Commerce">Commerce</button><button class="filter" type="button" data-filter="Other">More industries</button></div>
+        <div class="company-grid" id="company-grid"><div class="loading-card">Loading the preview...</div></div>
+        <div class="locked-section" id="locked-section"><div class="lock-glyph">🔒</div><div><strong>9 more research profiles are inside.</strong><p>Plus a CSV shortlist, 3 outreach templates, and an application tracker.</p></div><a href="#pricing" class="small-dark-btn">Unlock for ₹19 ↗</a></div>
+        <div class="unlocked-section" id="unlocked-section" hidden><span>✳</span> Your full directory is unlocked. Open an official careers page, verify the role, and make your pitch specific.</div>
+      </div>
+      <div class="source-note"><span>✳</span> Last source review: November 22, 2026. Leadership and openings can change. These links are for research, not guaranteed referrals.</div>
+    </div></section>
+
+    <section class="how-section section" id="how-it-works"><div class="container"><div class="section-kicker">02 / THE PLAYBOOK</div><div class="section-heading"><h2>Less guessing.<br/><span>More doing.</span></h2><p>Good outreach doesn't start with an email address. It starts with knowing why you're reaching out.</p></div>
+      <div class="steps-grid"><article class="step"><div class="step-top"><span>01</span><span>↗</span></div><div class="step-icon icon-research">⌕</div><h3>Find your fit.</h3><p>Browse companies and identify projects, teams and problems that match what you actually build.</p></article><article class="step step-purple"><div class="step-top"><span>02</span><span>↗</span></div><div class="step-icon icon-apply">▤</div><h3>Use the front door.</h3><p>Check official career pages, apply to relevant roles, and verify leadership facts at the source.</p></article><article class="step step-lime"><div class="step-top"><span>03</span><span>↗</span></div><div class="step-icon icon-send">↗</div><h3>Make it personal.</h3><p>Adapt the templates to your experience, follow up once, and track progress without spamming.</p></article></div>
+    </div></section>
+
+    <section class="kit-section section" id="inside"><div class="container kit-grid"><div><div class="section-kicker light">03 / THE ₹19 KIT</div><h2>The small kit<br/>with a <em>big purpose.</em></h2><p>Research, a clear next step, and a repeatable workflow. Nothing fake. Nothing flashy. Just a better starting point.</p><a href="#pricing" class="btn btn-lime">Get the kit — ₹19 ↗</a></div><div class="kit-items"><div class="kit-item"><span class="item-index">01</span><div><strong>13 public leadership profiles</strong><small>Names, roles, sectors and links to supporting company sources</small></div><span>↗</span></div><div class="kit-item"><span class="item-index">02</span><div><strong>Official company careers URLs</strong><small>Go to the employer's own application channel</small></div><span>↗</span></div><div class="kit-item"><span class="item-index">03</span><div><strong>3 outreach message templates</strong><small>Intro, after-application note and one respectful follow-up</small></div><span>↗</span></div><div class="kit-item"><span class="item-index">04</span><div><strong>Application tracker CSV</strong><small>A simple tracker you can open in Sheets or Excel</small></div><span>↗</span></div></div></div></section>
+
+    <section class="price-section section" id="pricing"><div class="container price-layout"><div class="price-copy"><div class="section-kicker">04 / START HERE</div><h2>Your next chance<br/>could start with<br/><em>one better email.</em></h2><p>Designed for students who want to do more than hit “Easy Apply” and hope.</p><div class="price-note"><span>↗</span> One purchase. No subscription. No job or interview guarantees.</div></div><div class="price-card"><div class="price-card-tag">EARLY LAUNCH OFFER <span>✳</span></div><div class="price-card-body"><p>THE REACHLANE STARTER KIT</p><div class="price"><span>₹</span>19<small>one time</small></div><div class="rule"></div><ul><li>13 researched company profiles</li><li>Official careers + leadership sources</li><li>3 customizable email templates</li><li>Application tracker (CSV)</li><li>30-day access to downloads</li></ul><button class="buy-button" id="buy-button" type="button">Unlock my kit for ₹19 <span>↗</span></button><div id="payment-state" class="payment-state" role="status" aria-live="polite"></div><div class="payment-footnote">Secure checkout via Razorpay when enabled. We do not store your card or UPI details.</div></div></div></div></section>
+
+    <section class="downloads-section section" id="downloads" hidden><div class="container"><div class="download-panel"><div><div class="section-kicker">YOU'RE IN</div><h2>Your kit is ready<span>.</span></h2><p>Download the resources and use them to build your own approach.</p></div><div class="download-actions"><button data-download="companies" class="btn btn-primary">Download company CSV ↓</button><button data-download="templates" class="btn btn-dark">Get 3 templates ↓</button><button data-download="tracker" class="btn btn-dark">Application tracker ↓</button></div></div></div></section>
+    <section class="faq-section section"><div class="container faq-layout"><div><div class="section-kicker">05 / THE FINE PRINT</div><h2>No shortcuts.<br/><span>Just a head start.</span></h2></div><div class="faq-list"><details open><summary>Are you selling private CEO phone numbers or emails?<span>+</span></summary><p>No. The kit contains public professional leadership information and verified corporate-source links, not private contact details. Respect opt-outs and use official hiring routes.</p></details><details><summary>Will buying the kit get me an internship?<span>+</span></summary><p>No. The kit is a research and outreach resource, not a placement service, referral, interview or job guarantee. Company hiring decisions remain with the employers.</p></details><details><summary>Are all 13 companies hiring interns right now?<span>+</span></summary><p>Not necessarily. The official careers links are provided for you to check current openings. Listings change frequently; do not assume internships are currently available.</p></details><details><summary>How does the ₹19 access work?<span>+</span></summary><p>When live payments are enabled, you'll pay once with Razorpay and receive a 30-day access pass to download the CSV and templates from the same browser.</p></details></div></div></section>
+  </main>
+  <footer class="footer"><div class="container"><div class="footer-main"><div><a class="brand" href="#home"><span class="brand-mark"><span>↗</span></span><span>reachlane<span class="brand-dot">.</span></span></a><p>For students who build, learn, and dare to reach out.</p></div><div class="footer-links"><a href="#directory">Directory</a><a href="#inside">What's inside</a><a href="#pricing">Pricing</a><a href="/legal.html">Terms & privacy</a></div></div><div class="footer-bottom"><span>© 2026 reachlane. An independent student project.</span><span>Not affiliated with or endorsed by listed companies. ✳</span></div></div></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body></html>

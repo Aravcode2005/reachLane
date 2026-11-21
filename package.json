@@ -1,0 +1,8 @@
+{
+  "name":"reachlane-nineteen",
+  "version":"1.0.0",
+  "private":true,
+  "type":"module",
+  "engines":{"node":">=20"},
+  "scripts":{"dev":"node dev-server.mjs","start":"node dev-server.mjs","test":"node --test"}
+}
